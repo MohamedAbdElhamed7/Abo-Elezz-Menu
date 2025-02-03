@@ -108,7 +108,7 @@ function App() {
           filter: 'none',
         }}
       >
-        <div className="bg-black/40">
+        
           <div className="container mx-auto py-8">
             {selectedCategory && menuData.items[selectedCategory] && (
               <div id={selectedCategory}>
@@ -120,7 +120,7 @@ function App() {
             )}
           </div>
         </div>
-      </div>
+      
 
       {/* Footer */}
       <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg" style={{ backgroundColor: "rgb(34, 42, 65)" }}>
