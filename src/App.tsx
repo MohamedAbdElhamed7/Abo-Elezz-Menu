@@ -102,7 +102,7 @@ function App() {
 
       {/* Menu Items with background */}
       <div 
-        className="min-h-screen bg-cover bg-center filter:'none' bg-scroll"
+        className="min-h-screen bg-cover bg-center filter:'none' bg-no-repeat bg-fixed"
         style={{ 
           backgroundImage: 'url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop")',
         }}
