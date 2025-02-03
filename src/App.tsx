@@ -105,6 +105,7 @@ function App() {
         className="min-h-screen bg-cover bg-center filter:'none' bg-scroll"
         style={{ 
           backgroundImage: 'url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop")',
+          filter: 'none',
         }}
       >
         <div className="bg-black/40">
