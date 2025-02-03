@@ -122,7 +122,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <div className="sticky bottom-0 bg- shadow-lg" style={{ backgroundColor: "rgb(34, 42, 65)" }}>
+      <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg" style={{ backgroundColor: "rgb(34, 42, 65)" }}>
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="flex space-x-4">
