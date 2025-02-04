@@ -52,9 +52,9 @@ function App() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-center">
             <img 
-              src="/images/logo.png" 
-              alt="Restaurant Logo" 
-              className="h-24 w-24 mr-3"
+            src="/Abo-Elezz-Menu/images/logo.png" 
+            alt="Restaurant Logo" 
+            className="h-24 w-24 mr-3" 
             />
             <h1 className="text-5xl font-bold font-mono" style={{ color: "rgb(220, 155, 33)" }}>ABO ALEZZ</h1>
           </div>
