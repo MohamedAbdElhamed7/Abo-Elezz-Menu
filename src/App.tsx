@@ -102,13 +102,12 @@ function App() {
 
       {/* Menu Items with background */}
       <div 
-        className="min-h-screen bg-cover bg-center filter:'none' bg-scroll"
+        className="min-h-screen bg-cover bg-center bg-fixed"
         style={{ 
           backgroundImage: 'url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop")',
-          filter: 'none',
         }}
       >
-        
+        <div className="bg-black/40">
           <div className="container mx-auto py-8">
             {selectedCategory && menuData.items[selectedCategory] && (
               <div id={selectedCategory}>
@@ -120,8 +119,8 @@ function App() {
             )}
           </div>
         </div>
+      </div>
       
-
       {/* Footer */}
       <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg" style={{ backgroundColor: "rgb(34, 42, 65)" }}>
         <div className="container mx-auto px-4 py-4">
